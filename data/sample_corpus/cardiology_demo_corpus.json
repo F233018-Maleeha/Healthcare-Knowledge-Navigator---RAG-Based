@@ -1,0 +1,134 @@
+[
+  {
+    "doc_id": "doc-01",
+    "title": "Hypertension Management Overview",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2023-05-01",
+    "license": "open",
+    "full_text": "Background\nHypertension is a leading modifiable risk factor for cardiovascular disease.\nRecommendation\nFor most adults, a blood pressure target below 130/80 mmHg is reasonable, especially in patients with diabetes, chronic kidney disease, or established cardiovascular disease. First-line pharmacologic classes include ACE inhibitors, ARBs, calcium channel blockers, and thiazide-type diuretics. In patients with diabetes and hypertension, an ACE inhibitor or ARB is generally preferred given renal-protective effects. Lifestyle measures should accompany pharmacotherapy at every stage."
+  },
+  {
+    "doc_id": "doc-02",
+    "title": "ASCVD Risk & Statin Therapy Summary",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2022-11-01",
+    "license": "open",
+    "full_text": "Recommendation\nStatin therapy is recommended for secondary prevention in all patients with established atherosclerotic cardiovascular disease, generally at high intensity, targeting at least a 50% reduction in LDL cholesterol. For primary prevention, statin initiation is guided by estimated 10-year ASCVD risk together with risk-enhancing factors. Moderate-intensity statins are a reasonable starting point for many primary-prevention patients."
+  },
+  {
+    "doc_id": "doc-03",
+    "title": "Atrial Fibrillation Anticoagulation Overview",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2023-08-01",
+    "license": "open",
+    "full_text": "Recommendation\nAnticoagulation decisions in non-valvular atrial fibrillation are guided by the CHA2DS2-VASc score. A score of 2 or more in men (3 or more in women) generally warrants oral anticoagulation. Direct oral anticoagulants are preferred over warfarin for most eligible patients due to comparable or better efficacy and lower intracranial hemorrhage risk.\nContraindications\nWarfarin remains preferred in patients with moderate-to-severe mitral stenosis or a mechanical heart valve, where DOACs are not validated."
+  },
+  {
+    "doc_id": "doc-04",
+    "title": "Heart Failure with Reduced Ejection Fraction — GDMT Summary",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2024-02-01",
+    "license": "open",
+    "full_text": "Recommendation\nGuideline-directed medical therapy for HFrEF rests on four pillars, ideally initiated in parallel rather than sequentially when tolerated: an ARNI (or ACE inhibitor/ARB if unavailable), a beta-blocker with proven mortality benefit, a mineralocorticoid receptor antagonist, and an SGLT2 inhibitor. SGLT2 inhibitors provide benefit regardless of diabetes status."
+  },
+  {
+    "doc_id": "doc-05",
+    "title": "STEMI Reperfusion Timing",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 2,
+    "evidence_grade": "Grade B",
+    "publication_date": "2021-09-01",
+    "license": "open",
+    "full_text": "Recommendation\nFor ST-elevation myocardial infarction, primary percutaneous coronary intervention is preferred over fibrinolysis when it can be performed promptly. The benchmark is a first-medical-contact-to-device time of 90 minutes or less at a PCI-capable facility, or 120 minutes when transfer is required. If timely PCI is not achievable, fibrinolytic therapy should be given within 30 minutes of first medical contact."
+  },
+  {
+    "doc_id": "doc-06",
+    "title": "Chest Pain Risk Stratification — HEART Score",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 2,
+    "evidence_grade": "Grade B",
+    "publication_date": "2020-06-01",
+    "license": "open",
+    "full_text": "Recommendation\nThe HEART score stratifies patients with acute chest pain into low, moderate, and high risk for 6-week major adverse cardiac events. A score of 0-3 is low risk and may support early discharge. Scores of 4-6 are moderate risk and typically warrant further inpatient evaluation. Scores of 7 or higher are high risk and generally warrant early invasive evaluation."
+  },
+  {
+    "doc_id": "doc-07",
+    "title": "Dual Antiplatelet Therapy Duration Post-PCI",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 2,
+    "evidence_grade": "Grade B",
+    "publication_date": "2022-04-01",
+    "license": "open",
+    "full_text": "Recommendation\nAfter PCI with drug-eluting stent placement, dual antiplatelet therapy is generally continued for at least 6 months in stable ischemic heart disease and at least 12 months following acute coronary syndrome, absent high bleeding risk. Shorter durations followed by P2Y12 inhibitor monotherapy are increasingly supported in patients at high bleeding risk."
+  },
+  {
+    "doc_id": "doc-08",
+    "title": "Aspirin for Primary Prevention — Current Position",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2022-09-01",
+    "license": "open",
+    "full_text": "Recommendation\nRoutine low-dose aspirin for primary prevention of cardiovascular disease in adults without known ASCVD is no longer broadly recommended, particularly in adults over 60, due to bleeding risk offsetting modest ischemic benefit. Aspirin remains firmly indicated for secondary prevention in patients with established cardiovascular disease."
+  },
+  {
+    "doc_id": "doc-09",
+    "title": "Lipid Targets in Secondary Prevention",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 1,
+    "evidence_grade": "Grade A",
+    "publication_date": "2023-03-01",
+    "license": "open",
+    "full_text": "Recommendation\nIn patients with established atherosclerotic cardiovascular disease, an LDL cholesterol target below 70 mg/dL is reasonable, with consideration of a lower threshold below 55 mg/dL in very-high-risk patients. If high-intensity statin alone does not achieve target, ezetimibe is typically added next, followed by a PCSK9 inhibitor if the target remains unmet."
+  },
+  {
+    "doc_id": "doc-10",
+    "title": "Cardiac Rehabilitation Referral",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 3,
+    "evidence_grade": "Grade B",
+    "publication_date": "2021-07-01",
+    "license": "open",
+    "full_text": "Recommendation\nReferral to a structured cardiac rehabilitation program is recommended after myocardial infarction, coronary revascularization, or for stable HFrEF, given consistent associations with reduced mortality and hospital readmission. Explicit referral at hospital discharge meaningfully increases enrollment."
+  },
+  {
+    "doc_id": "doc-11",
+    "title": "Syncope Evaluation Overview",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 3,
+    "evidence_grade": "Grade C",
+    "publication_date": "2019-10-01",
+    "license": "open",
+    "full_text": "Recommendation\nInitial evaluation of syncope should focus on distinguishing cardiac from non-cardiac causes through history, physical examination, and a 12-lead ECG. Features raising concern for a cardiac cause include syncope during exertion, absence of prodrome, abnormal ECG findings, or a family history of sudden cardiac death, and warrant further cardiac work-up."
+  },
+  {
+    "doc_id": "doc-12",
+    "title": "Orthostatic Hypotension Management",
+    "source": "Synthetic guideline summary",
+    "specialty": ["cardiology"],
+    "authority_tier": 3,
+    "evidence_grade": "Grade C",
+    "publication_date": "2020-01-01",
+    "license": "open",
+    "full_text": "Recommendation\nNon-pharmacologic measures are first-line for symptomatic orthostatic hypotension: adequate fluid and salt intake where not contraindicated, compression garments, and gradual postural changes. When insufficient, midodrine or fludrocortisone are common next-line pharmacologic options, chosen based on comorbidities."
+  }
+]

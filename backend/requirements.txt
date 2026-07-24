@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+httpx==0.27.2
+qdrant-client==1.11.1
+rank_bm25==0.2.2
+sqlalchemy[asyncio]==2.0.35
+asyncpg==0.29.0
+aiosqlite==0.20.0
+redis==5.0.8
+python-multipart==0.0.9
+
+# CPU-only torch build - the default PyPI wheel bundles several GB of
+# unused CUDA runtime libraries, which is what caused the Docker image
+# (and the Windows WSL2 virtual disk, which never auto-shrinks) to
+# balloon in size. This index must come before sentence-transformers
+# so pip resolves torch from here instead of the default index.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+sentence-transformers>=2.2.2
+
+# dev/test
+pytest==8.3.3
+pytest-asyncio==0.24.0

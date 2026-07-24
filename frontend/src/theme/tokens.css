@@ -1,0 +1,39 @@
+/**
+ * DESIGN TOKENS
+ * ─────────────
+ * This is the single source of truth for the app's visual identity.
+ * Every component references these variables (via Tailwind, see
+ * tailwind.config.js) instead of hardcoding colors or fonts directly.
+ *
+ * TO RESKIN THE ENTIRE APP: edit the values below. Nothing else needs
+ * to change - every component, badge, and card updates automatically.
+ *
+ * TO ADD A NEW TOKEN: add a --color-* or --font-* variable here, then
+ * reference it in tailwind.config.js's theme.extend section so it
+ * becomes a usable Tailwind class (e.g. bg-newtoken).
+ */
+:root {
+  /* --- Base surface colors --- */
+  --color-paper: #f6f7f5;      /* page background */
+  --color-panel: #ffffff;      /* card/panel background */
+  --color-ink: #152238;        /* primary text */
+  --color-ink-soft: #4b5768;   /* secondary/muted text */
+  --color-line: #dde1e0;       /* borders, dividers */
+
+  /* --- Accent: evidence / trust (teal) --- */
+  --color-teal: #0e7c86;
+  --color-teal-dim: #e4f1f1;
+
+  /* --- Status: confidence levels --- */
+  --color-amber: #b4791f;      /* moderate confidence, warnings */
+  --color-amber-dim: #fbf0df;
+  --color-green: #2f7d5d;      /* high confidence */
+  --color-green-dim: #e4f2ec;
+  --color-red: #a93a46;        /* low confidence, errors */
+  --color-red-dim: #f7e9ea;
+
+  /* --- Typography --- */
+  --font-display: "Source Serif 4", Georgia, serif;   /* headings */
+  --font-body: "IBM Plex Sans", system-ui, sans-serif; /* body/UI text */
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace; /* data, ids, citations */
+}
