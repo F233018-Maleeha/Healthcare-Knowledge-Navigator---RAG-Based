@@ -61,7 +61,7 @@ export default function App() {
       </div>
 
       <footer className="mt-10 text-[11.5px] text-ink-soft border-t border-line pt-3.5 font-mono">
-        Connected to {import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000"}
+        Connected to {import.meta.env.VITE_API_BASE_URL ?? "https://healthcare-knowledge-navigator-rag-based-production.up.railway.app/"}
       </footer>
     </div>
   );

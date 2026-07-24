@@ -4,7 +4,7 @@ import type { FeedbackRequest, QueryRequest, QueryResponse } from "./types";
  * The backend base URL comes from an env var so switching environments
  * (local, staging, production) never means editing code - see .env.example.
  */
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "https://healthcare-knowledge-navigator-rag-based-production.up.railway.app/";
 
 export class ApiError extends Error {
   status: number;
