@@ -26,7 +26,10 @@ class VectorStore:
         if settings.vector_backend == "memory":
             self.client = AsyncQdrantClient(":memory:")
         else:
-            self.client = AsyncQdrantClient(url=settings.qdrant_url)
+            self.client = AsyncQdrantClient(
+                url=settings.qdrant_url, 
+                api_key=settings.qdrant_api_key
+            )
         self._collection_ready = False
         self._ready_lock = asyncio.Lock()
 

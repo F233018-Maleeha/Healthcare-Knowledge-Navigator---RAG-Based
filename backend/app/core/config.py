@@ -34,6 +34,7 @@ class Settings(BaseSettings):
     vector_backend: Literal["qdrant", "memory"] = "qdrant"
     qdrant_url: str = "http://qdrant:6333"
     qdrant_collection: str = "hkn_chunks"
+    qdrant_api_key: str | None = None
 
     # --- Embeddings ---
     embedding_provider: Literal["openai", "voyage", "cohere", "gemini", "local_stub","local_semantic"] = "local_semantic"
